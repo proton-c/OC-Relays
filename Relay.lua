@@ -13,7 +13,8 @@ local port = 80
 local handshakePort = 90
 
 local function handshake(msg, from)
-  msg.send(from, handshakePort, (msg + 50) * 2)
+  local calc = (msg + 50) * 2
+  m.send(from, handshakePort, calc)
 end
 
 m.open(port)
