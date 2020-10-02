@@ -1,3 +1,4 @@
+-- Simple example for what a client could look like using this system. The file could be named anything on the client.
 local component = require("component")
 local event = require("event")
 local serial = require("serialization")
