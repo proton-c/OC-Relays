@@ -1,3 +1,4 @@
+-- This file would be placed in a low-end computer to be used to pass messages from a relay to the main data center server, and it would be in location "/autorun.lua"
 local component = require("component")
 local event = require("event")
 local serial = require("serialization")
