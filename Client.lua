@@ -28,6 +28,7 @@ local function handshake()
     else
         print("Handshake failed! Relay returned incorrect calculation.")
     end
+    m.close(handshakePort)
 end
 
 if fs.exists("/home/data") == false then
