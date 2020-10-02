@@ -1,3 +1,4 @@
+-- This file would be placed in a server that would be used as a main data center server. It would be in the file location "/autorun.lua"
 local component = require("component")
 local event = require("event")
 local serial = require("serialization")
